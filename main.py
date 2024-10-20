@@ -3,6 +3,12 @@ import json
 from datetime import datetime
 import time
 
+st.set_page_config(
+    page_title="Adkar's Garden | حديقة الأذكار",
+    page_icon=":leaves:",
+    layout="wide"
+)
+
 dikr = "  ربي إني لما انزلت إلي من خير فقير "
 emo = ":butterfly:"
 def load_adkar():
